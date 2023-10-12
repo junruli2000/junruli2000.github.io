@@ -18,7 +18,7 @@ My research interest is theoretic cryptography and its application in the real w
   Tsinghua University, IIIS (2024 - )
   
 - Bachelor of Science, Mathematics and Applied Mathematics   
-  ShanghaiTech University, IMS (2020 - 2024(expected))
+  ShanghaiTech University, IMS (2020 - 2024 (expected))
 
 A data-driven personal website
 ======
