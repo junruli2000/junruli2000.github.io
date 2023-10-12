@@ -26,5 +26,22 @@ My research interest is theoretic cryptography and its application in the real w
 
 - *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
   **Junru Li**, Pengzhen Ke, Liang Feng Zhang
-  Under Review.
+  Under Review.   
   [Eprint](https://eprint.iacr.org/2023/625)
+
+<h2 id="teaching"> Teaching</h2>
+
+- TA for MATH 1224 Abstract Algebra, Spring 2023, ShanghaiTech University
+
+- TA for TA for MATH 1233 Introduction to Topology, Fall 2023, ShanghaiTech University
+
+<h2 id="experience"> Experience</h2>
+
+- Research Intern, ShanghaiTech University, adivised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm)
+
+<h2 id="awards"> Awards</h2>
+
+- 
+
+- 
+
