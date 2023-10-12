@@ -37,11 +37,13 @@ My research interest is theoretic cryptography and its application in the real w
 
 <h2 id="experience"> Experience</h2>
 
-- Research Intern, ShanghaiTech University, adivised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm)
+- Research Intern, ShanghaiTech University, adivised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
 
 <h2 id="awards"> Awards</h2>
 
-- 
+- Shanghai Scholarship, 2022 - 2023
 
-- 
+- Outstanding Student of ShanghaiTech University, 2021 - 2022
+
+- Merit Student of ShanghaiTech University, 2020 - 2021
 
