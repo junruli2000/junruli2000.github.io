@@ -19,3 +19,12 @@ My research interest is theoretic cryptography and its application in the real w
   
 - Bachelor of Science, Mathematics and Applied Mathematics   
   ShanghaiTech University, IMS (2020 - 2024 (expected))
+
+<h2 id="publications"> Publications</h2>
+
+**2023:**
+
+- *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
+  **Junru Li**, Pengzhen Ke, Liang Feng Zhang
+  Under Review.
+  [Eprint](https://eprint.iacr.org/2023/625)
