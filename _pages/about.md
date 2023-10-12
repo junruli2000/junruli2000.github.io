@@ -14,7 +14,7 @@ My research interest is theoretic cryptography and its application in the real w
 
 <h2 id="education"> Education</h2>
 
-- Ph.D. student of Computer Science and Technology
+- Ph.D. student of Computer Science and Technology   
   Tsinghua University, IIIS (2024 - )
   
 - Bachelor of Science, Mathematics and Applied Mathematics   
