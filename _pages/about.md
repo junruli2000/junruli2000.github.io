@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Biography"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am an undergraduate student at [Institute of Mathematical Science (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) since 2020. I am accepted to be a Ph.D student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/).
+
+My research interest is theoretic cryptography and its application in the real world, including secure multi-party computation, private information retrieval and function secret sharing.
+
+<h2 id="education"> Education</h2>
+
+- Ph.D. student of Computer Science and Technology
+  Tsinghua University, IIIS (2024 - )
+  
+- Bachelor of Science, Mathematics and Applied Mathematics   
+  ShanghaiTech University, IMS (2020 - 2024(expected))
 
 A data-driven personal website
 ======
