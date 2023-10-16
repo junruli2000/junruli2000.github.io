@@ -33,7 +33,7 @@ My research interest is theoretic cryptography and its application in the real w
 
 - TA for MATH 1224 Abstract Algebra, Spring 2023, ShanghaiTech University
 
-- TA for TA for MATH 1233 Introduction to Topology, Fall 2023, ShanghaiTech University
+- TA for MATH 1233 Introduction to Topology, Fall 2023, ShanghaiTech University
 
 <h2 id="experience"> Experience</h2>
 
