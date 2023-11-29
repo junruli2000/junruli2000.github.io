@@ -41,6 +41,8 @@ My research interest is theoretic cryptography and its application in the real w
 
 - Online Research Intern, Peking University, advised by Prof. [Tianren Liu](https://liutianren.com) (04/2023 - 06/2023)
 
+- Online Research Intern, Tsinghua University, advised by Prof. [Yifan Song](https://crypto-song.github.io/) (09/2023 - present)
+
 <h2 id="awards"> Awards</h2>
 
 - Shanghai Scholarship, 2022 - 2023
