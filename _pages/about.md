@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student at [Institute of Mathematical Science (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) since 2020. I am accepted to be a Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/).
+I am an undergraduate student at [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) since 2020. I am accepted to be a Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/).
 
 My research interest is theoretic cryptography and its application in the real world, including secure multi-party computation, private information retrieval and function secret sharing.
 
@@ -38,6 +38,8 @@ My research interest is theoretic cryptography and its application in the real w
 <h2 id="experience"> Experience</h2>
 
 - Research Intern, ShanghaiTech University, adivised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
+
+- Online Research Intern, Peking University, advised by Prof. [Tianren Liu](https://liutianren.com) (04/2023 - 06/2023)
 
 <h2 id="awards"> Awards</h2>
 
