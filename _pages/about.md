@@ -43,9 +43,9 @@ My research interest is theoretic cryptography and its application in the real w
 
 <h2 id="awards"> Awards</h2>
 
-- Shanghai Scholarship (Top 5 among all undergraduates in ShanghaiTech), 2023
+- Shanghai Scholarship, 2023
 
-- Outstanding Student of ShanghaiTech University (Top 5% in IMS), 2022
+- Outstanding Student of ShanghaiTech University, 2022
 
-- Merit Student of ShanghaiTech University (Top 15% in IMS), 2021
+- Merit Student of ShanghaiTech University, 2021
 
