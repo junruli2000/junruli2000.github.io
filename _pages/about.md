@@ -22,6 +22,14 @@ My research interest is theoretic cryptography and its application in the real w
 
 <h2 id="publications"> Publications</h2>
 
+**2024:**
+
+- *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
+  Xiaoyu Ji, **Junru Li**, Yifan Song 
+  Under Review.   
+  [Eprint](https://eprint.iacr.org/2024/245)
+
+
 **2023:**
 
 - *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
