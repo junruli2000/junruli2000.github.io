@@ -10,7 +10,7 @@ redirect_from:
 
 I am an undergraduate student at [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) since 2020. I am accepted to be a Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/).
 
-My research interest is theoretic cryptography and its application in the real world, including secure multi-party computation, private information retrieval and function secret sharing.
+My research interest is theoretic cryptography and its application in the real world, including secure multi-party computation, private information retrieval, and function secret sharing.
 
 <h2 id="education"> Education</h2>
 
@@ -20,7 +20,9 @@ My research interest is theoretic cryptography and its application in the real w
 - Bachelor of Science, Mathematics and Applied Mathematics   
   ShanghaiTech University, IMS (2020 - 2024 (expected))
 
-<h2 id="publications"> Publications</h2>
+<h2 id="publications"> Publications</h2>   
+
+Authors are Listed in Alphabetical Order (if they indeed are)
 
 **2024:**
 
