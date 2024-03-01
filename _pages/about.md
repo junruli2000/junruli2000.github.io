@@ -22,7 +22,8 @@ My research interest is theoretic cryptography and its application in the real w
 
 <h2 id="publications"> Publications</h2>   
 
-Authors are Listed in Alphabetical Order (if they indeed are)
+Authors are Listed in Alphabetical Order unless stated otherwise.  
+*: first author
 
 **2024:**
 
@@ -35,7 +36,7 @@ Authors are Listed in Alphabetical Order (if they indeed are)
 **2023:**
 
 - *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
-  **Junru Li**, Pengzhen Ke, Liang Feng Zhang   
+  **Junru Li***, Pengzhen Ke, Liang Feng Zhang   
   Under Review.   
   [Eprint](https://eprint.iacr.org/2023/625)
 
