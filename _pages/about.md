@@ -37,7 +37,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 - *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
   Xiaoyu Ji, **Junru Li**, Yifan Song   
-  Crypto 2024.   
+  CRYPTO 2024.   
   [Eprint](https://eprint.iacr.org/2024/245)
 
 <h2 id="teaching"> Teaching</h2>
