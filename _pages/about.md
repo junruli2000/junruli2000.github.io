@@ -25,20 +25,20 @@ My research interest is theoretic cryptography and its application in the real w
 Authors are Listed in **Alphabetical Order** (unless stated otherwise).  
 *: first author
 
+
+**Preprints:**
+
+- *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
+  **Junru Li***, Pengzhen Ke, Liang Feng Zhang     
+  [Eprint](https://eprint.iacr.org/2023/625)
+
+
 **2024:**
 
 - *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
   Xiaoyu Ji, **Junru Li**, Yifan Song   
-  Under Review.   
+  Crypto 2024.   
   [Eprint](https://eprint.iacr.org/2024/245)
-
-
-**2023:**
-
-- *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
-  **Junru Li***, Pengzhen Ke, Liang Feng Zhang   
-  Under Review.   
-  [Eprint](https://eprint.iacr.org/2023/625)
 
 <h2 id="teaching"> Teaching</h2>
 
