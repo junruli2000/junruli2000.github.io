@@ -8,17 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate student at [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) since 2020. I am accepted to be a Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/).
+I am a first-year Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/). Before joining Tsinghua University, I received my bachelor's degree in [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) in 2024.
 
-My research interest is theoretic cryptography and its application in the real world, including secure multi-party computation, private information retrieval, and function secret sharing.
+My research interest is theoretic cryptography and its application in the real world. My research mainly focuses on secure multi-party computation. I'm also interested in other related topics such as private information retrieval and function secret sharing.
 
 <h2 id="education"> Education</h2>
 
 - Ph.D. student of Computer Science and Technology   
-  Tsinghua University, IIIS (2024 - )
+  Tsinghua University, IIIS (2024 - now)
   
 - Bachelor of Science, Mathematics and Applied Mathematics   
-  ShanghaiTech University, IMS (2020 - 2024 (expected))
+  ShanghaiTech University, IMS (2020 - 2024)
 
 <h2 id="publications"> Publications</h2>   
 
@@ -35,6 +35,10 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 **2024:**
 
+- *Dishonest Majority Constant-Round MPC with Linear Communication from DDH*   
+  Vipul Goyal, **Junru Li**,  Ankit Kumar Misra, Rafail Ostrovsky, Yifan Song, Chenkai Weng   
+  ASIACRYPT 2024.
+
 - *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
   Xiaoyu Ji, **Junru Li**, Yifan Song   
   CRYPTO 2024.   
@@ -48,15 +52,17 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 <h2 id="experience"> Experience</h2>
 
-- Research Intern, ShanghaiTech University, adivised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
+- Research Intern, ShanghaiTech University, advised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
 
 - Online Research Intern, Peking University, advised by Prof. [Tianren Liu](https://liutianren.com) (04/2023 - 06/2023)
 
-<h2 id="awards"> Awards</h2>
+<h2 id="awards"> Selected Awards</h2>
+
+- Presidential Scholarship, ShanghaiTech University, 2024
+
+- Outstanding Graduate of ShanghaiTech University, 2024
 
 - Shanghai Scholarship, 2023
 
 - Outstanding Student of ShanghaiTech University, 2022
-
-- Merit Student of ShanghaiTech University, 2021
 
