@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Junru Li"
   avatar           : "self.jpg"
-  bio              : "Undergraduate at IMS, ShanghaiTech University, Interested in Theoretic Cryptography"
+  bio              : "Ph.D. Student at IIIS, Tsinghua University, Interested in Theoretic Cryptography"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
@@ -103,7 +103,7 @@ author:
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0009-0003-1687-2620"
+  orcid            : # "https://orcid.org/0009-0003-1687-2620"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
