@@ -37,7 +37,8 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 - *Dishonest Majority Constant-Round MPC with Linear Communication from DDH*   
   Vipul Goyal, **Junru Li**,  Ankit Kumar Misra, Rafail Ostrovsky, Yifan Song, Chenkai Weng   
-  ASIACRYPT 2024.
+  ASIACRYPT 2024.   
+  [Eprint](https://eprint.iacr.org/2024/1644)
 
 - *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
   Xiaoyu Ji, **Junru Li**, Yifan Song   
