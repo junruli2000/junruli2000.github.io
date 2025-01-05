@@ -28,7 +28,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 **2025:**
 
 - *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
-  **Junru Li***, Pengzhen Ke, Liang Feng Zhang (contribution order)   
+  **Junru Li**, Pengzhen Ke, Liang Feng Zhang (contribution order)   
   Designs, Codes, and Cryptography   
   [Eprint](https://eprint.iacr.org/2023/625)
 
