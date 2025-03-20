@@ -25,6 +25,13 @@ My research interest is theoretic cryptography and its application in the real w
 Authors are Listed in **Alphabetical Order** (unless stated otherwise).  
 
 
+**Preprint:**
+
+- *Towards Building Scalable Constant-Round MPC from Minimal Assumptions via Round Collapsing*   
+  Vipul Goyal, **Junru Li**, Rafail Ostrovsky, Yifan Song   
+  [Eprint](https://eprint.iacr.org/2025/508)
+
+
 **2025:**
 
 - *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
@@ -36,7 +43,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 **2024:**
 
 - *Dishonest Majority Constant-Round MPC with Linear Communication from DDH*   
-  Vipul Goyal, **Junru Li**,  Ankit Kumar Misra, Rafail Ostrovsky, Yifan Song, Chenkai Weng   
+  Vipul Goyal, **Junru Li**, Ankit Kumar Misra, Rafail Ostrovsky, Yifan Song, Chenkai Weng   
   ASIACRYPT 2024.   
   [Eprint](https://eprint.iacr.org/2024/1466)
 
