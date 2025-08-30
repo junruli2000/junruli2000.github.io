@@ -27,6 +27,9 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 **2025:**
+- *Honest Majority Constant-Round MPC with Linear Communication from One-Way Functions*   
+  **Junru Li**, Yifan Song     
+  TCC 2025.   
 
 - *Towards Building Scalable Constant-Round MPC from Minimal Assumptions via Round Collapsing*   
   Vipul Goyal, **Junru Li**, Rafail Ostrovsky, Yifan Song     
