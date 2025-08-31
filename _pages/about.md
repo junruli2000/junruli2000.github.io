@@ -10,7 +10,7 @@ redirect_from:
 
 I am a second-year Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/). Before joining Tsinghua University, I received my bachelor's degree in [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) in 2024.
 
-My research interest is theoretical cryptography, with a special focus on secure multi-party computation. I'm also interested in other areas of theoretical computer science.
+My research interest is theoretical cryptography, with a special focus on secure multi-party computation. I'm also interested in other topics of theoretical computer science.
 
 <h2 id="education"> Education</h2>
 
