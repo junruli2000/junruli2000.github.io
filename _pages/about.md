@@ -27,7 +27,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 **Preprints:**
-- *Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization*   
+- *Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization*   
   Lesi Chen, **Junru Li**, Jingzhao Zhang (contribution order)       
   [arXiv](https://arxiv.org/abs/2509.02937)
 
