@@ -26,6 +26,12 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 
+**Preprints:**
+- *Faster Gradient Methods for Highly-smooth Stochastic Bilevel Optimization*   
+  Lesi Chen, **Junru Li**, Jingzhao Zhang (contribution order)       
+  [arXiv](https://arxiv.org/abs/2509.02937)
+
+
 **2025:**
 - *Honest Majority Constant-Round MPC with Linear Communication from One-Way Functions*   
   **Junru Li**, Yifan Song     
@@ -34,17 +40,17 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 - *Towards Building Scalable Constant-Round MPC from Minimal Assumptions via Round Collapsing*   
   Vipul Goyal, **Junru Li**, Rafail Ostrovsky, Yifan Song     
   CRYPTO 2025.   
-  [Eprint](https://eprint.iacr.org/2025/508)
+  [ePrint](https://eprint.iacr.org/2025/508)
 
 - *Constant-Round Asynchronous MPC with Optimal Resilience and Linear Communication*   
   **Junru Li**, Yifan Song    
   CRYPTO 2025.   
-  [Eprint](https://eprint.iacr.org/2025/1032)
+  [ePrint](https://eprint.iacr.org/2025/1032)
 
 - *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
   **Junru Li**, Pengzhen Ke, Liang Feng Zhang (contribution order)   
   Designs, Codes, and Cryptography.   
-  [Eprint](https://eprint.iacr.org/2023/625)
+  [ePrint](https://eprint.iacr.org/2023/625)
 
 
 **2024:**
@@ -52,12 +58,12 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 - *Dishonest Majority Constant-Round MPC with Linear Communication from DDH*   
   Vipul Goyal, **Junru Li**, Ankit Kumar Misra, Rafail Ostrovsky, Yifan Song, Chenkai Weng   
   ASIACRYPT 2024.   
-  [Eprint](https://eprint.iacr.org/2024/1466)
+  [ePrint](https://eprint.iacr.org/2024/1466)
 
 - *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
   Xiaoyu Ji, **Junru Li**, Yifan Song   
   CRYPTO 2024.   
-  [Eprint](https://eprint.iacr.org/2024/245)
+  [ePrint](https://eprint.iacr.org/2024/245)
 
 <h2 id="teaching"> Teaching</h2>
 
