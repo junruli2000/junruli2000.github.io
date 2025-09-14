@@ -12,6 +12,8 @@ I am a second-year Ph.D. student in [Institute for Interdisciplinary Information
 
 My research interest is theoretical cryptography, with a special focus on secure multi-party computation. I'm also interested in other topics of theoretical computer science.
 
+My Erdős number is 3 with the three-hop path: Junru Li, Rafail Ostrovsky, Noga Alon, Paul Erdős.
+
 <h2 id="education"> Education</h2>
 
 - Ph.D. student of Computer Science and Technology   
