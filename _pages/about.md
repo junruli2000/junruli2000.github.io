@@ -28,6 +28,13 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 
+**Preprint:**
+- *Malicious Security Comes Free in SPDZ*   
+  **Junru Li**, Yifan Song     
+  [ePrint](https://eprint.iacr.org/2026/283)
+
+
+
 **2026:**
 - *Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization*   
   Lesi Chen, **Junru Li**, El Mahdi Chayti, Jingzhao Zhang (contribution order)     
