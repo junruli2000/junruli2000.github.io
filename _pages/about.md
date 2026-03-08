@@ -27,14 +27,6 @@ My Erdős number is 3 with the three-hop path: Junru Li, Rafail Ostrovsky, Noga 
 Authors are Listed in **Alphabetical Order** (unless stated otherwise).  
 
 
-
-**Preprint:**
-- *Malicious Security Comes Free in SPDZ*   
-  **Junru Li**, Yifan Song     
-  [ePrint](https://eprint.iacr.org/2026/283)
-
-
-
 **2026:**
 - *Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization*   
   Lesi Chen, **Junru Li**, El Mahdi Chayti, Jingzhao Zhang (contribution order)     
@@ -76,7 +68,23 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
   CRYPTO 2024.   
   [ePrint](https://eprint.iacr.org/2024/245)
 
+
+**Manuscripts:**
+- *Malicious Security Comes Free in SPDZ*   
+  **Junru Li**, Yifan Song     
+  [ePrint](https://eprint.iacr.org/2026/283)
+
+
+- *A Note on "Linear-Communication ACSS with Guaranteed Termination and Lower Amortized Bound"*   
+  Xiaoyu Ji, **Junru Li**, Yifan Song     
+  [ePrint](https://eprint.iacr.org/2026/469)
+
+
+
+
 <h2 id="teaching"> Teaching</h2>
+
+- TA for Secure Multiparty Computation: Theory and Application, Spring 2026, Tsinghua University
 
 - TA for MATH 1233 Introduction to Topology, Fall 2023, ShanghaiTech University
 
@@ -84,7 +92,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 <h2 id="experience"> Experience</h2>
 
-- External Reviewer: ASIACRYPT 2024, ASIACRYPT 2025, TCC 2025
+- External Reviewer: ASIACRYPT 2024, ASIACRYPT 2025, TCC 2025, PODC 2026
 
 - Research Intern, ShanghaiTech University, advised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
 
