@@ -82,7 +82,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
   [ePrint](https://eprint.iacr.org/2026/283)
 
 
-- *Solving Convex-Concave Problems with Õ(ε^(-4/(3p+1))) pth-Order Oracle Complexity*   
+- *Solving Convex-Concave Problems with Õ(ε⁻⁴⁄⁽³ᵖ⁺¹⁾) pth-Order Oracle Complexity*   
   Lesi Chen, Xinliang Zhang, Chengchang Liu, **Junru Li**, Luo Luo, Jingzhao Zhang (contribution order)     
   [arXiv](https://arxiv.org/abs/2604.19462)
 
