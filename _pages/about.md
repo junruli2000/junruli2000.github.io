@@ -27,7 +27,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 **2026:**
-- *Breaking the $`\Omega(|C|\kappa)`$ Barrier on Garbled Circuit Size in the Random Oracle Model*   
+- *Breaking the Ω(|C|κ) Barrier on Garbled Circuit Size in the Random Oracle Model*   
   **Junru Li**, Yifan Song     
   CRYPTO 2026.     
 
@@ -82,7 +82,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
   [ePrint](https://eprint.iacr.org/2026/283)
 
 
-- *Solving Convex-Concave Problems with $`\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})`$ $`p`$th-Order Oracle Complexity*   
+- *Solving Convex-Concave Problems with Õ(ε^(-4/(3p+1))) pth-Order Oracle Complexity*   
   Lesi Chen, Xinliang Zhang, Chengchang Liu, **Junru Li**, Luo Luo, Jingzhao Zhang (contribution order)     
   [arXiv](https://arxiv.org/abs/2604.19462)
 
