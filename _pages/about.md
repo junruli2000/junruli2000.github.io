@@ -27,7 +27,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 **2026:**
-- *Breaking the Ω(|C|κ) Barrier on Garbled Circuit Size in the Random Oracle Model*   
+- *Breaking the $\Omega(|C|\kappa)$ Barrier on Garbled Circuit Size in the Random Oracle Model*   
   **Junru Li**, Yifan Song     
   CRYPTO 2026.     
 
