@@ -12,7 +12,6 @@ I am a second-year Ph.D. student in [Institute for Interdisciplinary Information
 
 My research interest is theoretical cryptography, with a special focus on secure multi-party computation. I'm also interested in other topics of theoretical computer science.
 
-My Erdős number is 3 with the three-hop path: Junru Li, Rafail Ostrovsky, Noga Alon, Paul Erdős.
 
 <h2 id="education"> Education</h2>
 
@@ -28,6 +27,14 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 
 **2026:**
+- *Breaking the $`\Omega(|C|\kappa)`$ Barrier on Garbled Circuit Size in the Random Oracle Model*   
+  **Junru Li**, Yifan Song     
+  CRYPTO 2026.     
+
+- *Achieving Guaranteed Output Delivery MPC with Constant Rounds and Linear Communication in Minicrypt*   
+  **Junru Li**, Yifan Song     
+  CRYPTO 2026.     
+
 - *Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization*   
   Lesi Chen, **Junru Li**, El Mahdi Chayti, Jingzhao Zhang (contribution order)     
   ICLR 2026.     
@@ -75,9 +82,9 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
   [ePrint](https://eprint.iacr.org/2026/283)
 
 
-- *A Note on "Linear-Communication ACSS with Guaranteed Termination and Lower Amortized Bound"*   
-  Xiaoyu Ji, **Junru Li**, Yifan Song     
-  [ePrint](https://eprint.iacr.org/2026/469)
+- *Solving Convex-Concave Problems with $`\tilde{\mathcal{O}}(\epsilon^{-4/(3p+1)})`$ $`p`$th-Order Oracle Complexity*   
+  Lesi Chen, Xinliang Zhang, Chengchang Liu, **Junru Li**, Luo Luo, Jingzhao Zhang (contribution order)     
+  [arXiv](https://arxiv.org/abs/2604.19462)
 
 
 
@@ -92,7 +99,7 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 <h2 id="experience"> Experience</h2>
 
-- External Reviewer: ASIACRYPT 2024, ASIACRYPT 2025, TCC 2025, PODC 2026
+- External Reviewer: ASIACRYPT 2024, ASIACRYPT 2025, TCC 2025, PODC 2026, FOCS 2026, TCC 2026
 
 - Research Intern, ShanghaiTech University, advised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
 
@@ -100,11 +107,11 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 
 <h2 id="awards"> Selected Awards</h2>
 
+- Lingjun Pioneer Scholarship, 2025
+
 - Presidential Scholarship, ShanghaiTech University, 2024
 
 - Outstanding Graduate of ShanghaiTech University, 2024
 
 - Shanghai Scholarship, 2023
-
-- Outstanding Student of ShanghaiTech University, 2022
 
