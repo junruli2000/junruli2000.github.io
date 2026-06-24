@@ -29,11 +29,13 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 **2026:**
 - *Breaking the $\Omega(|C|\kappa)$ Barrier on Garbled Circuit Size in the Random Oracle Model*   
   **Junru Li**, Yifan Song     
-  CRYPTO 2026.     
+  CRYPTO 2026.    
+  [ePrint](https://eprint.iacr.org/2026/1297)
 
 - *Achieving Guaranteed Output Delivery MPC with Constant Rounds and Linear Communication in Minicrypt*   
   **Junru Li**, Yifan Song     
-  CRYPTO 2026.     
+  CRYPTO 2026.    
+  [ePrint](https://eprint.iacr.org/2026/1296)
 
 - *Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization*   
   Lesi Chen, **Junru Li**, El Mahdi Chayti, Jingzhao Zhang (contribution order)     
