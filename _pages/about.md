@@ -12,6 +12,8 @@ I am a second-year Ph.D. student in [Institute for Interdisciplinary Information
 
 My research interest is theoretical cryptography, with a special focus on secure multi-party computation. I'm also interested in other topics of theoretical computer science.
 
+I am currently interested in building agents and harnesses for secure protocols and related topics. If you have any ideas you would like to discuss, please feel free to contact me at jr-li24@mails.tsinghua.edu.cn.
+
 
 <h2 id="education"> Education</h2>
 
