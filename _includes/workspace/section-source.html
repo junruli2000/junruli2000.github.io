@@ -1,0 +1,12 @@
+{%- if include.key == "about" -%}
+  {{ home_fragments[0] }}
+{%- else -%}
+  {%- for fragment in home_fragments offset:1 -%}
+    {%- assign fragment_key = fragment | split: '"' | first -%}
+    {%- if fragment_key == include.key -%}
+      {%- assign fragment_heading = fragment | split: '</h2>' | first -%}
+      {{ fragment | remove_first: fragment_heading | remove_first: '</h2>' }}
+      {%- break -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}

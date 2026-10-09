@@ -1,0 +1,74 @@
+---
+layout: null
+permalink: /designs/
+title: "主页设计方案"
+sitemap: false
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>20 种主页设计 · 李君儒</title>
+  <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/designs/gallery.css?v={{ site.time | date: '%s' }}">
+  <script defer src="{{ site.baseurl }}/assets/designs/catalog.js?v={{ site.time | date: '%s' }}"></script>
+  <script defer src="{{ site.baseurl }}/assets/designs/gallery.js?v={{ site.time | date: '%s' }}"></script>
+</head>
+<body class="gallery-page" data-root="{{ site.baseurl }}">
+  <header class="gallery-header">
+    <a class="gallery-brand" href="{{ site.baseurl }}/zh/"><span>李君儒 <small>PERSONAL WEBSITE</small></span></a>
+    <a class="back-home" href="{{ site.baseurl }}/zh/">当前主页 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="gallery-main">
+    <section class="gallery-intro">
+      <div>
+        <p class="gallery-eyebrow"><span></span> DESIGN EXPLORATIONS / 01—20</p>
+        <h1>同一个你，<br>二十种<span>表达。</span></h1>
+        <p class="gallery-lead">二十种不同的页面结构：论文库、研究地图、双页书册、时间线、杂志和作品墙。点开一款，体验完整界面。</p>
+        <div class="gallery-facts"><span>20 套完整前端</span><span>中文 / English</span><span>桌面 / 手机</span><span>双方案对比</span></div>
+      </div>
+      <aside class="gallery-note">
+        <span class="note-index">A PERSONAL EDITION</span>
+        <p>不同结构，不同体验。<br>找到适合你的表达。</p>
+        <div class="note-line"></div>
+        <span>共用当前主页内容<br>论文标题与作者保持英文</span>
+      </aside>
+    </section>
+    <section aria-label="方案列表">
+      <div class="gallery-controls">
+        <div class="filter-tabs" role="group" aria-label="按风格筛选">
+          <button type="button" class="active" data-filter="all" aria-pressed="true">全部 <span>20</span></button>
+          <button type="button" data-filter="academic" aria-pressed="false">简洁学术</button>
+          <button type="button" data-filter="editorial" aria-pressed="false">书刊人文</button>
+          <button type="button" data-filter="digital" aria-pressed="false">现代科技</button>
+          <button type="button" data-filter="expressive" aria-pressed="false">大胆实验</button>
+        </div>
+        <label class="gallery-language">预览语言 <select id="gallery-language"><option value="zh">中文</option><option value="en">English</option></select></label>
+      </div>
+      <p id="selection-note" class="selection-note" role="status" hidden></p>
+      <div id="design-grid" class="design-grid"></div>
+      <noscript><p>请启用 JavaScript 来查看和对比设计方案。<a href="{{ site.baseurl }}/zh/">返回当前主页</a></p></noscript>
+    </section>
+    <footer class="gallery-footer"><p>选中喜欢的方案后，把编号告诉我，就可以继续细化。</p><span>JUNRU LI · DESIGN COLLECTION</span></footer>
+  </main>
+  <div class="compare-dock" id="compare-dock" hidden>
+    <div><span class="dock-label">方案对比</span><p id="compare-names"></p></div>
+    <div class="dock-actions"><button type="button" id="clear-compare">清空</button><button type="button" class="solid-button" id="open-compare" disabled>选择第二款</button></div>
+  </div>
+  <dialog id="preview-dialog" class="preview-dialog" aria-label="完整设计预览">
+    <div class="preview-toolbar">
+      <button type="button" id="close-preview" class="toolbar-back">← 全部方案</button>
+      <div class="preview-title" id="preview-title"></div>
+      <div class="toolbar-options">
+        <div class="segmented" role="group" aria-label="预览设备"><button type="button" data-device="desktop" aria-pressed="true">桌面</button><button type="button" data-device="mobile" aria-pressed="false">手机</button></div>
+        <select id="preview-language" aria-label="预览语言"><option value="zh">中文</option><option value="en">English</option></select>
+        <button type="button" id="favorite-design" class="solid-button">喜欢这款</button>
+      </div>
+    </div>
+    <div id="preview-stage" class="preview-stage"></div>
+    <div class="preview-bottom"><button type="button" id="previous-design">← 上一款</button><span id="preview-description"></span><button type="button" id="next-design">下一款 →</button></div>
+  </dialog>
+</body>
+</html>

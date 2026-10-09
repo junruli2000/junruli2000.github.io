@@ -1,0 +1,72 @@
+{% include locale.html %}
+{% include base_path %}
+{% assign blog_posts = site.posts | where_exp: "post", "post.sample != true" %}
+{% assign article_categories = "" | split: "," %}
+{% assign article_tags = "" | split: "," %}
+{% for post in blog_posts %}
+  {% assign article_categories = article_categories | concat: post.categories %}
+  {% assign article_tags = article_tags | concat: post.tags %}
+{% endfor %}
+{% assign article_categories = article_categories | uniq | sort %}
+{% assign article_tags = article_tags | uniq | sort %}
+{% assign declared_categories = site.data.blog_directories | map: "tag" %}
+{% assign directory_categories = declared_categories | concat: article_categories | uniq %}
+{% assign uncategorized_posts = blog_posts | where_exp: "post", "post.categories.size == 0" %}
+
+<div class="blog-index" data-blog-index>
+  <div class="blog-articles" id="blog-posts">
+    <section class="blog-directory" aria-labelledby="blog-directory-title">
+      <div class="section-heading"><h2 id="blog-directory-title">{{ locale.blog_directory_label }}</h2><span class="section-rule" aria-hidden="true"></span></div>
+      {% if directory_categories.size > 0 or uncategorized_posts.size > 0 %}
+        <nav aria-label="{{ locale.blog_directory_label }}">
+          <ul class="blog-directory-list">
+            {% for directory_category in directory_categories %}
+              {% assign directory = site.data.blog_directories | where: "tag", directory_category | first %}
+              {% assign directory_name = directory[active_lang] | default: directory_category %}
+              <li><a href="#blog-category-{{ forloop.index }}" data-blog-directory-link>{{ directory_name | escape }}</a></li>
+            {% endfor %}
+            {% if uncategorized_posts.size > 0 %}<li><a href="#blog-uncategorized" data-blog-directory-link>{{ locale.blog_uncategorized }}</a></li>{% endif %}
+          </ul>
+        </nav>
+      {% else %}
+        <div class="blog-directory-empty"><p>{{ locale.blog_directory_empty }}</p></div>
+      {% endif %}
+    </section>
+
+    <div class="blog-filter-status" hidden aria-live="polite"><span>{{ locale.blog_filter_label }} <strong data-blog-selected-tag></strong></span><a href="{{ base_path }}{{ page.url }}" data-blog-tag="">{{ locale.blog_all_posts }} ↩</a></div>
+    <div class="blog-empty-results" hidden><p>{{ locale.blog_filter_empty }}</p></div>
+
+    {% for directory_category in directory_categories %}
+      {% assign directory = site.data.blog_directories | where: "tag", directory_category | first %}
+      {% assign directory_name = directory[active_lang] | default: directory_category %}
+      {% assign directory_posts = blog_posts | where_exp: "post", "post.categories contains directory_category" %}
+      <section class="blog-category" data-blog-category id="blog-category-{{ forloop.index }}" aria-labelledby="blog-category-title-{{ forloop.index }}">
+        <h2 class="blog-category-title" id="blog-category-title-{{ forloop.index }}">{{ directory_name | escape }}</h2>
+        {% for post in directory_posts %}
+          {% include blog-post-entry.html post=post %}
+        {% else %}
+          <p class="blog-category-empty">{{ locale.blog_category_empty }}</p>
+        {% endfor %}
+      </section>
+    {% endfor %}
+
+    {% if uncategorized_posts.size > 0 %}
+      <section class="blog-category" data-blog-category id="blog-uncategorized" aria-labelledby="blog-uncategorized-title">
+        <h2 class="blog-category-title" id="blog-uncategorized-title">{{ locale.blog_uncategorized }}</h2>
+        {% for post in uncategorized_posts %}{% include blog-post-entry.html post=post %}{% endfor %}
+      </section>
+    {% endif %}
+  </div>
+
+  <aside class="blog-tags" aria-labelledby="blog-tags-title">
+    <div class="blog-tags-heading"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m20 13-7 7a2 2 0 0 1-3 0l-8-8V3h9l9 8a2 2 0 0 1 0 2Z"/><circle cx="7" cy="7" r="1.25"/></svg><h2 id="blog-tags-title">{{ locale.blog_tags_label }}</h2></div>
+    {% if article_tags.size > 0 %}
+      <a class="blog-all-posts" href="{{ base_path }}{{ page.url }}" data-blog-tag="">{{ locale.blog_all_posts }}</a>
+      <ul class="blog-tag-list">
+        {% for tag in article_tags %}<li><a href="{{ base_path }}{{ page.url }}?tag={{ tag | url_encode }}" data-blog-tag="{{ tag | escape }}"><span aria-hidden="true">#</span>{{ tag | escape }}</a></li>{% endfor %}
+      </ul>
+    {% else %}
+      <p class="blog-tags-empty">{{ locale.blog_tags_empty }}</p>
+    {% endif %}
+  </aside>
+</div>

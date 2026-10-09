@@ -5,6 +5,9 @@ main:
     
   - title: "Publications"
     url: /#publications
+
+  - title: "Blog"
+    url: /blog/
     
   - title: "Teaching"
     url: /#teaching
@@ -16,4 +19,26 @@ main:
     url: /#awards
     
   - title: "CV"
+    url: /files/LJR-CV.pdf
+
+main_zh:
+  - title: "教育经历"
+    url: /zh/#education
+
+  - title: "发表论文"
+    url: /zh/#publications
+
+  - title: "博客"
+    url: /zh/blog/
+
+  - title: "教学经历"
+    url: /zh/#teaching
+
+  - title: "个人经历"
+    url: /zh/#experience
+
+  - title: "获奖荣誉"
+    url: /zh/#awards
+
+  - title: "简历"
     url: /files/LJR-CV.pdf

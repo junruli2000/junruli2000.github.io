@@ -1,0 +1,57 @@
+contact_email: "jr-li24@mails.tsinghua.edu.cn"
+cv_url: "/files/LJR-CV.pdf"
+section_order:
+  - about
+  - education
+  - publications
+  - teaching
+  - experience
+  - awards
+
+en:
+  brand_label: "Homepage"
+  affiliation: "Ph.D. student"
+  institution: "IIIS · Tsinghua University"
+  headline: "Personal Website"
+  sections:
+    about: "About"
+    publications: "Publications"
+    education: "Education"
+    teaching: "Teaching"
+    experience: "Experience"
+    awards: "Selected awards"
+  tabs_label: "Content sections"
+  contact_label: "Get in touch"
+  scholar_label: "Google Scholar"
+  cv_label: "CV"
+  portrait: "Portrait of Junru Li"
+  skip_label: "Skip to content"
+  menu_label: "Menu"
+  contact_message: "Let’s exchange research ideas."
+  blog_label: "Blog"
+  blog_title: "Blog"
+  home_label: "Back to home"
+
+zh:
+  brand_label: "个人主页"
+  affiliation: "博士研究生"
+  institution: "清华大学 · 交叉信息研究院"
+  headline: "个人主页"
+  sections:
+    about: "关于我"
+    publications: "发表论文"
+    education: "教育经历"
+    teaching: "教学经历"
+    experience: "个人经历"
+    awards: "获奖荣誉"
+  tabs_label: "内容章节"
+  contact_label: "联系我"
+  scholar_label: "谷歌学术"
+  cv_label: "简历"
+  portrait: "李君儒的照片"
+  skip_label: "跳到主要内容"
+  menu_label: "菜单"
+  contact_message: "欢迎交流研究想法。"
+  blog_label: "博客"
+  blog_title: "Blog"
+  home_label: "返回个人主页"

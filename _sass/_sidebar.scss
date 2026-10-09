@@ -151,6 +151,7 @@
 
   button {
     margin-bottom: 0;
+    white-space: nowrap;
 
     @include breakpoint($large) {
       display: none;

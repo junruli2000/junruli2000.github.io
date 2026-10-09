@@ -1,0 +1,4 @@
+{% assign active_lang = page.lang | default: "en" %}
+{% assign locale = site.data.locales[active_lang] | default: site.data.locales.en %}
+{% assign localized_site_title = locale.site_title | default: site.title %}
+{% assign localized_site_name = locale.author_name | default: site.name %}

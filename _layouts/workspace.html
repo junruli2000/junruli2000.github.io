@@ -1,0 +1,98 @@
+{% include locale.html %}
+{% include base_path %}
+{% assign workspace = site.data.workspace[active_lang] %}
+{% assign person_name = locale.author_name | default: site.author.name %}
+{% assign is_blog = false %}
+{% if page.workspace_view == "blog" %}{% assign is_blog = true %}{% endif %}
+{% assign home_fragments = content | split: '<h2 id="' %}
+<!doctype html>
+<html lang="{{ locale.html_lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0e172b">
+    {% include seo.html %}
+    <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico">
+    <link rel="alternate" type="application/atom+xml" href="{{ site.baseurl }}/feed.xml" title="{{ localized_site_title }}">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/workspace.css?v={{ site.time | date: '%s' }}">
+    <script defer src="{{ site.baseurl }}/assets/js/workspace.js?v={{ site.time | date: '%s' }}"></script>
+  </head>
+  <body class="workspace-page{% if is_blog %} workspace-blog{% endif %}">
+    <a class="skip-link" href="#main-content">{{ workspace.skip_label }}</a>
+    <header class="site-header">
+      <a class="brand" href="{{ base_path }}{{ locale.home_url }}">
+        <span class="brand-name">{{ person_name }}<small>{{ workspace.brand_label }}</small></span>
+      </a>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="site-navigation">{{ workspace.menu_label }} <span aria-hidden="true">☰</span></button>
+      <nav id="site-navigation" class="site-nav" aria-label="{{ locale.navigation_label }}">
+        {% for link in site.data.navigation[locale.navigation] %}
+          <a href="{{ base_path }}{{ link.url }}"{% if link.url contains '#'%} data-home-section{% elsif link.url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endfor %}
+      </nav>
+      <a class="language-switch" data-language-switch href="{{ base_path }}{{ page.translation_url | default: locale.switch_url }}" lang="{{ locale.switch_lang }}" hreflang="{{ locale.switch_lang }}" aria-label="{{ locale.switch_description }}">{{ locale.switch_label }}</a>
+    </header>
+
+    <div class="site-wrap">
+      <div class="research-workspace"{% unless is_blog %} data-chapter-system data-default-chapter="about"{% endunless %}>
+        <aside class="workspace-rail" aria-label="{{ person_name }}">
+          <div class="workspace-rail-inner">
+            <div class="profile-identity">
+              <img class="profile-photo" src="{{ site.baseurl }}/images/{{ site.author.avatar }}" alt="{{ workspace.portrait }}" width="72" height="72">
+              <div><strong>{{ person_name }}</strong><p>{{ workspace.affiliation }}</p></div>
+            </div>
+            <p class="rail-institution">{{ workspace.institution }}</p>
+
+            {% if is_blog %}
+              <nav class="chapter-tabs" aria-label="{{ workspace.tabs_label }}">
+                {% for section_key in site.data.workspace.section_order %}
+                  <a class="chapter-tab" href="{{ base_path }}{{ locale.home_url }}#{{ section_key }}"><span class="tab-index" aria-hidden="true">0{{ forloop.index }}</span>{{ workspace.sections[section_key] }}</a>
+                {% endfor %}
+              </nav>
+            {% else %}
+              <div class="chapter-tabs" role="tablist" aria-label="{{ workspace.tabs_label }}" aria-orientation="vertical">
+                {% for section_key in site.data.workspace.section_order %}
+                  <button type="button" class="chapter-tab" role="tab" id="tab-{{ section_key }}" data-chapter="{{ section_key }}" aria-controls="pane-{{ section_key }}" aria-selected="{% if section_key == 'about' %}true{% else %}false{% endif %}" tabindex="{% if section_key == 'about' %}0{% else %}-1{% endif %}"><span class="tab-index" aria-hidden="true">0{{ forloop.index }}</span>{{ workspace.sections[section_key] }}</button>
+                {% endfor %}
+              </div>
+            {% endif %}
+            <a class="rail-blog{% if is_blog %} is-active{% endif %}" href="{{ site.baseurl }}{% if active_lang == 'zh' %}/zh{% endif %}/blog/"{% if is_blog %} aria-current="page"{% endif %}>{{ workspace.blog_label }} <span aria-hidden="true">↗</span></a>
+            <div class="profile-links">
+              <a href="mailto:{{ site.data.workspace.contact_email }}">{{ workspace.contact_label }} <span aria-hidden="true">↗</span></a>
+              <a href="{{ site.author.googlescholar }}">{{ workspace.scholar_label }} <span aria-hidden="true">↗</span></a>
+              <a href="{{ site.baseurl }}{{ site.data.workspace.cv_url }}">{{ workspace.cv_label }} <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </aside>
+
+        <main class="workspace-main" id="main-content">
+          <div class="workspace-heading">
+            <h1>{% if is_blog %}{{ workspace.blog_title }}{% else %}{{ workspace.headline }}{% endif %}</h1>
+          </div>
+          {% if is_blog %}
+            <div class="workspace-content blog-content archive">{{ content }}</div>
+            <a class="back-to-home" href="{{ base_path }}{{ locale.home_url }}">← {{ workspace.home_label }}</a>
+          {% else %}
+            <div class="workspace-content">
+              {% for section_key in site.data.workspace.section_order %}
+                {% capture section_html %}{% include workspace/section-source.html key=section_key %}{% endcapture %}
+                {% if section_key == 'publications' %}
+                  {% assign section_html = section_html | replace: '<em>', '<em class="paper-title">' | replace: '$\Omega(|C|\kappa)$', '<span class="formula">Ω(|C|κ)</span>' | replace: '$\tilde{\mathcal{O}}(ε^{-4/(3p+1)})$', '<span class="formula">Õ(ε<sup>−4/(3p+1)</sup>)</span>' | replace: '$p$th', '<i>p</i>th' %}
+                {% endif %}
+                <div class="chapter-pane" id="pane-{{ section_key }}" role="tabpanel" aria-labelledby="tab-{{ section_key }}" data-chapter-pane="{{ section_key }}" tabindex="0">
+                  <section class="content-section section-{{ section_key }}" id="{{ section_key }}">
+                    <div class="section-heading"><span class="section-number" aria-hidden="true">0{{ forloop.index }}</span><h2>{{ workspace.sections[section_key] }}</h2><span class="section-rule" aria-hidden="true"></span></div>
+                    <div class="section-body">{{ section_html }}</div>
+                  </section>
+                </div>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </main>
+      </div>
+      <footer class="site-footer">
+        <p>{{ workspace.contact_message }}<br><a href="mailto:{{ site.data.workspace.contact_email }}">{{ site.data.workspace.contact_email }}</a></p>
+        <div class="footer-links"><a href="https://github.com/{{ site.author.github }}">GitHub ↗</a><a href="{{ site.author.googlescholar }}">{{ workspace.scholar_label }} ↗</a><span>© {{ site.time | date: '%Y' }} {{ person_name }}</span></div>
+      </footer>
+    </div>
+  </body>
+</html>

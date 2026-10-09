@@ -1,0 +1,9 @@
+# 可在此处提前添加目录标签，并为目录设置中英文名称。
+# 文章的 front matter 使用 categories: [cryptography] 即可归入对应目录。
+# 使用 tags: [mpc, learning] 可添加文章卡片上的标签和右侧的标签入口。
+# 未在此处登记的 categories 标签也会自动生成目录。
+# 例如，添加目录时将下面的 [] 替换为：
+# - tag: cryptography
+#   en: Cryptography
+#   zh: 密码学
+[]

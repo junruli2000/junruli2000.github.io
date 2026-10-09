@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /designs/preview/
+title: "设计预览"
+sitemap: false
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>个人主页 · 设计预览</title>
+  <link rel="icon" href="{{ site.baseurl }}/images/favicon.ico">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/designs/themes.css?v={{ site.time | date: '%s' }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/designs/layouts.css?v={{ site.time | date: '%s' }}">
+  <script defer src="{{ site.baseurl }}/assets/designs/catalog.js?v={{ site.time | date: '%s' }}"></script>
+  <script defer src="{{ site.baseurl }}/assets/designs/layouts.js?v={{ site.time | date: '%s' }}"></script>
+  <script defer src="{{ site.baseurl }}/assets/designs/interactions.js?v={{ site.time | date: '%s' }}"></script>
+  <script defer src="{{ site.baseurl }}/assets/designs/preview.js?v={{ site.time | date: '%s' }}"></script>
+</head>
+<body class="preview-page" data-root="{{ site.baseurl }}" data-scholar="{{ site.author.googlescholar | escape }}" data-github="https://github.com/{{ site.author.github }}" data-email="{{ site.author.email | escape }}">
+  <a class="skip-link" href="#main-content">跳到主要内容 / Skip to content</a>
+  <div id="preview-app" aria-busy="true"><p class="loading-note">正在载入主页内容… / Loading…</p></div>
+  <noscript><p>请启用 JavaScript 来预览设计。<a href="{{ site.baseurl }}/zh/">查看当前主页</a></p></noscript>
+</body>
+</html>

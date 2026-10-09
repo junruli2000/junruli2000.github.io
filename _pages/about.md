@@ -1,6 +1,9 @@
 ---
+layout: workspace
 permalink: /
-title: "Biography"
+lang: en
+translation_url: /zh/
+title: "Personal Website"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +11,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/). I am also a research intern at [Shanghai Qi Zhi Institute](https://www.sqz.ac.cn/). Before joining Tsinghua University, I received my bachelor's degree in [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) in 2024.
+I am a third-year Ph.D. student in [Institute for Interdisciplinary Information Sciences (IIIS)](https://iiis.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Yifan Song](https://crypto-song.github.io/). I am also a post-quantum research intern at [Ant Group's CPLab](https://antcplab.github.io/). Before joining Tsinghua University, I received my bachelor's degree in [Institute of Mathematical Sciences (IMS)](https://ims.shanghaitech.edu.cn/), [ShanghaiTech University](https://www.shanghaitech.edu.cn/) in 2024.
 
 My research interest is theoretical cryptography, with a special focus on secure multi-party computation. I'm also interested in other topics of theoretical computer science.
 
@@ -25,75 +28,11 @@ Currently, I am also interested in AI4Crypto and AI Security. If you have any id
 
 <h2 id="publications"> Publications</h2>   
 
-Authors are Listed in **Alphabetical Order** (unless stated otherwise).  
-
-
-**2026:**
-- *Malicious Security Comes Free in SPDZ*   
-  **Junru Li**, Yifan Song    
-  ASIACRYPT 2026.    
-  [ePrint](https://eprint.iacr.org/2026/283)
-
-- *Breaking the $\Omega(|C|\kappa)$ Barrier on Garbled Circuit Size in the Random Oracle Model*   
-  **Junru Li**, Yifan Song     
-  CRYPTO 2026.    
-  [ePrint](https://eprint.iacr.org/2026/1297)
-
-- *Achieving Guaranteed Output Delivery MPC with Constant Rounds and Linear Communication in Minicrypt*   
-  **Junru Li**, Yifan Song     
-  CRYPTO 2026.    
-  [ePrint](https://eprint.iacr.org/2026/1296)
-
-- *Faster Gradient Methods for Highly-Smooth Stochastic Bilevel Optimization*   
-  Lesi Chen, **Junru Li**, El Mahdi Chayti, Jingzhao Zhang (contribution order)     
-  ICLR 2026.     
-  [arXiv](https://arxiv.org/abs/2509.02937)
-
-
-**2025:**
-- *Honest Majority Constant-Round MPC with Linear Communication from One-Way Functions*   
-  **Junru Li**, Yifan Song     
-  TCC 2025.     
-  [ePrint](https://eprint.iacr.org/2025/1676)
-
-- *Towards Building Scalable Constant-Round MPC from Minimal Assumptions via Round Collapsing*   
-  Vipul Goyal, **Junru Li**, Rafail Ostrovsky, Yifan Song     
-  CRYPTO 2025.   
-  [ePrint](https://eprint.iacr.org/2025/508)
-
-- *Constant-Round Asynchronous MPC with Optimal Resilience and Linear Communication*   
-  **Junru Li**, Yifan Song    
-  CRYPTO 2025.   
-  [ePrint](https://eprint.iacr.org/2025/1032)
-
-- *Efficient Information-Theoretic Distributed Point Function with General Output Groups*   
-  **Junru Li**, Pengzhen Ke, Liang Feng Zhang (contribution order)   
-  Designs, Codes, and Cryptography.   
-  [ePrint](https://eprint.iacr.org/2023/625)
-
-
-**2024:**
-
-- *Dishonest Majority Constant-Round MPC with Linear Communication from DDH*   
-  Vipul Goyal, **Junru Li**, Ankit Kumar Misra, Rafail Ostrovsky, Yifan Song, Chenkai Weng   
-  ASIACRYPT 2024.   
-  [ePrint](https://eprint.iacr.org/2024/1466)
-
-- *Linear-Communication Asynchronous Complete Secret Sharing with Optimal Resilience*   
-  Xiaoyu Ji, **Junru Li**, Yifan Song   
-  CRYPTO 2024.   
-  [ePrint](https://eprint.iacr.org/2024/245)
-
-
-**Manuscript:**
-- *Solving Convex-Concave Problems with $\tilde{\mathcal{O}}(ε^{-4/(3p+1)})$ $p$th-Order Oracle Complexity*   
-  Lesi Chen, Xinliang Zhang, Chengchang Liu, **Junru Li**, Luo Luo, Jingzhao Zhang (contribution order)     
-  [arXiv](https://arxiv.org/abs/2604.19462)
-
-
-
+{% include publications.md %}
 
 <h2 id="teaching"> Teaching</h2>
+
+- TA for Linear Algebra, Fall 2026, Tsinghua University
 
 - TA for Secure Multiparty Computation: Theory and Application, Spring 2026, Tsinghua University
 
@@ -104,6 +43,8 @@ Authors are Listed in **Alphabetical Order** (unless stated otherwise).
 <h2 id="experience"> Experience</h2>
 
 - External Reviewer: ASIACRYPT 2024, ASIACRYPT 2025, TCC 2025, PODC 2026, FOCS 2026, TCC 2026
+
+- Research Intern, [Shanghai Qi Zhi Institute](https://www.sqz.ac.cn/) (07/2024 - 08/2025)
 
 - Research Intern, ShanghaiTech University, advised by Prof. [Liang Feng Zhang](https://sist.shanghaitech.edu.cn/zhanglf/main.htm) (07/2022 - 07/2023)
 

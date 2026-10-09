@@ -7,7 +7,7 @@
 {% assign seo_url = seo_url | default: site.github.url %}
 
 {% if page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: localized_site_title %}
 {% endif %}
 
 {% if seo_title %}
@@ -18,7 +18,7 @@
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
 
-<title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
+<title>{{ seo_title | default: localized_site_title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
@@ -39,9 +39,22 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
-<meta property="og:site_name" content="{{ site.title }}">
-<meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<meta property="og:locale" content="{{ locale.og_locale }}">
+<meta property="og:site_name" content="{{ localized_site_title }}">
+<meta property="og:title" content="{{ page.title | default: localized_site_title | markdownify | strip_html | strip_newlines | escape_once }}">
+
+{% if page.translation_url %}
+  {% if active_lang == "zh" %}
+    {% assign english_url = page.translation_url %}
+    {% assign chinese_url = page.url %}
+  {% else %}
+    {% assign english_url = page.url %}
+    {% assign chinese_url = page.translation_url %}
+  {% endif %}
+  <link rel="alternate" hreflang="en" href="{{ seo_url }}{{ english_url }}">
+  <link rel="alternate" hreflang="zh-CN" href="{{ seo_url }}{{ chinese_url }}">
+  <link rel="alternate" hreflang="x-default" href="{{ seo_url }}{{ english_url }}">
+{% endif %}
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
@@ -117,7 +130,7 @@
     {
       "@context" : "http://schema.org",
       "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
+      "name" : "{{ site.social.name | default: localized_site_name }}",
       "url" : {{ seo_url | jsonify }},
       "sameAs" : {{ site.social.links | jsonify }}
     }
