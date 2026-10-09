@@ -90,7 +90,7 @@
         </main>
       </div>
       <footer class="site-footer">
-        <p>{{ workspace.contact_message }}<br><a href="mailto:{{ site.data.workspace.contact_email }}">{{ site.data.workspace.contact_email }}</a></p>
+        <p><a href="mailto:{{ site.data.workspace.contact_email }}">{{ site.data.workspace.contact_email }}</a></p>
         <div class="footer-links"><a href="https://github.com/{{ site.author.github }}">GitHub ↗</a><a href="{{ site.author.googlescholar }}">{{ workspace.scholar_label }} ↗</a><span>© {{ site.time | date: '%Y' }} {{ person_name }}</span></div>
       </footer>
     </div>

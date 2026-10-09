@@ -15,7 +15,7 @@
     about: '关于我', education: '教育经历', publications: '发表论文', teaching: '教学经历',
     experience: '个人经历', awards: '获奖荣誉', blog: '博客', email: '联系我', scholar: '谷歌学术',
     cv: '简历', menu: '菜单', back: '全部设计', topics: '研究兴趣', blogTitle: 'Blog',
-    blogSubtitle: '关于研究、学习与思考的记录。', empty: '暂无博客文章。', contact: '欢迎交流研究想法。',
+    blogSubtitle: '关于研究、学习与思考的记录。', empty: '暂无博客文章。',
     institute: '清华大学 / IIIS', affiliation: '博士研究生', portrait: '李君儒的照片'
   } : {
     name: 'Junru Li', role: 'IIIS · Tsinghua University', research: 'Theoretical cryptography & secure computation',
@@ -23,7 +23,7 @@
     about: 'About', education: 'Education', publications: 'Publications', teaching: 'Teaching',
     experience: 'Experience', awards: 'Selected awards', blog: 'Blog', email: 'Get in touch', scholar: 'Scholar',
     cv: 'CV', menu: 'Menu', back: 'All designs', topics: 'Research interests', blogTitle: 'Blog',
-    blogSubtitle: 'Notes on research, learning, and ideas.', empty: 'No blog posts yet.', contact: 'Let’s exchange research ideas.',
+    blogSubtitle: 'Notes on research, learning, and ideas.', empty: 'No blog posts yet.',
     institute: 'Tsinghua University / IIIS', affiliation: 'Ph.D. student', portrait: 'Portrait of Junru Li'
   };
   document.documentElement.lang = zh ? 'zh-CN' : 'en';
@@ -81,7 +81,7 @@
       '<a class="language-toggle" href="' + previewUrl({ lang: alternate, blog: blogView, hash: window.location.hash }) + '" lang="' + (zh ? 'en' : 'zh-CN') + '" aria-label="' + (zh ? '切换至英文' : 'Switch to Chinese') + '">' + (zh ? 'EN' : '中文') + '</a></header>';
   }
   function footer() {
-    return '<footer class="site-footer"><div><p>' + labels.contact + '<br><a href="mailto:jr-li24@mails.tsinghua.edu.cn">jr-li24@mails.tsinghua.edu.cn</a></p></div>' +
+    return '<footer class="site-footer"><div><p><a href="mailto:jr-li24@mails.tsinghua.edu.cn">jr-li24@mails.tsinghua.edu.cn</a></p></div>' +
       '<div class="footer-links"><a href="' + escape(document.body.dataset.github) + '">GitHub ↗</a><a href="' + escape(document.body.dataset.scholar) + '">' + labels.scholar + ' ↗</a><span>© ' + new Date().getFullYear() + ' ' + labels.name + '</span></div></footer>';
   }
   function polishPublications() {
