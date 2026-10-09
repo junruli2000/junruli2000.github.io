@@ -3,7 +3,7 @@ layout: workspace
 permalink: /zh/
 lang: zh
 translation_url: /
-title: "个人主页"
+title: "李君儒"
 excerpt: "清华大学交叉信息研究院博士生，研究方向为理论密码学与安全多方计算。"
 author_profile: true
 ---

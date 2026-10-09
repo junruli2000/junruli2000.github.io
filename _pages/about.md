@@ -3,7 +3,7 @@ layout: workspace
 permalink: /
 lang: en
 translation_url: /zh/
-title: "Personal Website"
+title: "Junru Li"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
